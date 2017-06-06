@@ -10,12 +10,10 @@ int main(int a, char ** v)
 {	
 	string inb;
 	cin >> inb;	
-//	inb = "2*x^100+100*x^2+3*x-2*x+8";
     	map<int, int> m; 
     	
 	regex r("(-?\\d*)\\*?x\\^?(\\d*)");
-//	regex r("([\+-]?)([[:d:]]*)\\*?(x?)\\^?([[:d:]]*)");
-    	sregex_iterator pos(inb.cbegin(), inb.cend(),r);
+ 	sregex_iterator pos(inb.cbegin(), inb.cend(),r);
 	sregex_iterator end;
 	int power = 1;
 	int koef = 1;
