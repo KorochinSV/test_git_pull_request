@@ -8,6 +8,8 @@ using namespace std;
 
 //test conflict 2
 
+//ef
+
 int main(int a, char ** v)
 {	
 	string inb;
