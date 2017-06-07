@@ -6,8 +6,7 @@
 
 using namespace std;
 
-//Change in branch1
-//Change in branch2
+//test conflict 2
 
 int main(int a, char ** v)
 {	
