@@ -6,6 +6,8 @@
 
 using namespace std;
 
+//test conflict
+
 int main(int a, char ** v)
 {	
 	string inb;
